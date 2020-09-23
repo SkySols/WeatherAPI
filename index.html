@@ -1,24 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" height=100%>
   <head>
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet"/>
+    <style>
+    body{
+        background-image: url("images/img.jpeg");
+        background-position: center;
+
+    }
+    #formid{
+    padding-top: 17%;
+    padding-left: 38%;
+
+    }
+    #txt{
+      padding-left: 42%;
+    }
+    footer{
+      padding-top: 19%;
+      padding-left: 35%;
+    }
+    </style>
   </head>
 
   <body>
-    <title>Enter the City</title>
+    <div id="txt">
+      <h1>WEATHER</h1>
+    </div>
+    <div id="formid">
     <form class="form-inline" action="/" method="post">
-  <div class="form-group mb-2">
+  <!-- <div class="form-group mb-2">
 
-  </div>
+  </div> -->
+
   <div class="form-group mx-sm-3 mb-2">
     <label for="inputPassword2" class="sr-only">City</label>
     <input type="text" class="form-control" name="city" placeholder="Enter your City">
   </div>
   <button type="submit" class="btn btn-primary mb-2">Confirm</button>
 </form>
-
+</div>
   </body>
+  <footer>
+    <h4>made by Nehal                              API in use-openweathermap</h4>
+  </footer>
 </html>
